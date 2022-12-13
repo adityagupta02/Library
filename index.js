@@ -54,7 +54,6 @@ addBtn.addEventListener("click", (e) => {
 function showMsg(type, message) {
   html = `<div class="alert alert-${type} alert-dismissible fade show" role="alert">
                 ${message}
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>`;
   let msg = document.querySelector("#msg");
   msg.innerHTML = html;
